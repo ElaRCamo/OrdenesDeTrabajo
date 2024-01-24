@@ -4,6 +4,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Panel Principal</title>
+    <link rel="stylesheet" href="css/style.css">
+    <!--Enlace de iconos: icons8, licencia con mención -->
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
@@ -14,7 +17,7 @@
     ?>
 </header>
 
-<?php  require_once('menu.php') ?>
+<?php require_once('navbar.php') ?>
 <?php  require_once('content.php') ?>
 
 <footer class="footer_section">
@@ -29,3 +32,6 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
 </body>
 </html>
+
+<!-- PLANTILLA
+        https://www.youtube.com/watch?v=bvxTewiTHPs&list=PLL9jEdn7PvoT309qO1E_-fLnfhuw2T9kJ&index=8 -->

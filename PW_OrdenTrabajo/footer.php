@@ -1,4 +1,4 @@
-<footer class="footer_section">
+<!-- <footer class="footer_section">
     <div class="container-fluid">
         <div class="row" align="right" >
             <div class="col-sm-3"></div>
@@ -12,6 +12,6 @@
                 <h5> Contactános -- </h5>
             </div>
         </div>
-
     </div>
 </footer>
+-->
