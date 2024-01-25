@@ -1,14 +1,14 @@
 
 <input type="checkbox" id="menu-toggle">
 <div class="sidebar">
-
-        <div class="logoGrammer">
-            <div class="logoGrammer-img bg-img" style="background-image: url(imgs/Grammer_Logo.ico)"></div>
-            <span><h4>GRAMMER QUERETARO</h4> </span>
-        </div>
+    <div class="side-header">
+        <div class="logoGrammer-img bg-img" style="background-image: url(imgs/Grammer_Logo.ico)"></div>
+    </div>
 
     <div class="side-content">
-
+        <div class="profile">
+            <img class="logoGrammer2-img img-responsive" alt="LogoGrammer" src="imgs/logoGrammer.png">
+        </div>
         <div class="side-menu">
             <ul>
                 <li>
@@ -47,7 +47,6 @@
                         <small>Cerrar sesión</small>
                     </a>
                 </li>
-
             </ul>
         </div>
     </div>
