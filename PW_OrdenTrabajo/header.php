@@ -4,7 +4,7 @@
 
         <div class="logoGrammer">
             <div class="logoGrammer-img bg-img" style="background-image: url(imgs/Grammer_Logo.ico)"></div>
-            <span><h4>GRAMMER</h4> </span>
+            <span><h4>GRAMMER Quere</h4> </span>
         </div>
 
     <div class="side-content">
