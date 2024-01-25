@@ -93,7 +93,7 @@
                             <th> UBICACIÓN </th>
                             <th> TURNO </th>
                             <th> SOLICITANTE </th>
-                            <th> TURNO </th>
+                            <th> ATENDIÓ </th>
                             <th> PROBLEMA/TRABAJO </th>
                             <th> DIAGNÓSTICO </th>
                             <th> CAUSA RAÍZ </th>
@@ -103,20 +103,20 @@
                         <tbody>
                         <tr>
                             <td>6097</td>
-                            <td>19/01/24</td>
+                            <td>05/07/23</td>
                             <td>Urgente</td>
                             <td>Cerrada</td>
                             <td>
-                                Área
-                                <br>Linea
-                                <br>Estación
+                                Á: Consolas
+                                <br>L: EZUL
+                                <br>E: #200
                             </td>
                             <td>1°</td>
                             <td>Aracely</td>
                             <td>Cristopher Mtz</td>
-                            <td>Las etiquetas salen en blanco</td>
+                            <td>No deja de sacar etiquetas en blanco impresora.</td>
                             <td>-Se retira etiqueta pegada en rodillo
-                                -Se calibra impresora (etiqueta sale incompleta).
+                                <br>-Se calibra impresora (etiqueta sale incompleta).
                             </td>
                             <td>Se envía etiqueta de prueba para tomar config</td>
                             <td>36 min</td>
@@ -128,32 +128,33 @@
                             <td>Cerrada</td>
                             <td>
                                 Ensamble
-                                G01 ctr
+                                <br>G01 ctr
+                                <br>10 engrasado
                             </td>
                             <td>1°</td>
                             <td>Evelyn</td>
                             <td>Gerardo O.</td>
-                            <td> </td>
+                            <td> - </td>
                             <td>Sensor magnético removido de estación y falla actualización software.</td>
                             <td>La versión de software no era la actual. Tenía una del 12/08/2022</td>
                             <td>30 min</td>
                         </tr>
                         <tr>
                             <td>6097</td>
-                            <td>19/01/24</td>
+                            <td>05/07/23</td>
                             <td>Urgente</td>
                             <td>Cerrada</td>
                             <td>
-                                Área
-                                Linea
-                                Estación
+                                Á: Consolas
+                                <br>L: EZUL
+                                <br>E: #200
                             </td>
                             <td>1°</td>
                             <td>Aracely</td>
                             <td>Cristopher Mtz</td>
-                            <td>Las etiquetas salen en blanco</td>
+                            <td>No deja de sacar etiquetas en blanco impresora.</td>
                             <td>-Se retira etiqueta pegada en rodillo
-                                -Se calibra impresora (etiqueta sale incompleta).
+                                <br>-Se calibra impresora (etiqueta sale incompleta).
                             </td>
                             <td>Se envía etiqueta de prueba para tomar config</td>
                             <td>36 min</td>
@@ -165,32 +166,33 @@
                             <td>Cerrada</td>
                             <td>
                                 Ensamble
-                                G01 ctr
+                                <br>G01 ctr
+                                <br>10 engrasado
                             </td>
                             <td>1°</td>
                             <td>Evelyn</td>
                             <td>Gerardo O.</td>
-                            <td> </td>
+                            <td> - </td>
                             <td>Sensor magnético removido de estación y falla actualización software.</td>
                             <td>La versión de software no era la actual. Tenía una del 12/08/2022</td>
                             <td>30 min</td>
                         </tr>
                         <tr>
                             <td>6097</td>
-                            <td>19/01/24</td>
+                            <td>05/07/23</td>
                             <td>Urgente</td>
                             <td>Cerrada</td>
                             <td>
-                                Área
-                                Linea
-                                Estación
+                                Á: Consolas
+                                <br>L: EZUL
+                                <br>E: #200
                             </td>
                             <td>1°</td>
                             <td>Aracely</td>
                             <td>Cristopher Mtz</td>
-                            <td>Las etiquetas salen en blanco</td>
+                            <td>No deja de sacar etiquetas en blanco impresora.</td>
                             <td>-Se retira etiqueta pegada en rodillo
-                                -Se calibra impresora (etiqueta sale incompleta).
+                                <br>-Se calibra impresora (etiqueta sale incompleta).
                             </td>
                             <td>Se envía etiqueta de prueba para tomar config</td>
                             <td>36 min</td>
@@ -202,32 +204,33 @@
                             <td>Cerrada</td>
                             <td>
                                 Ensamble
-                                G01 ctr
+                                <br>G01 ctr
+                                <br>10 engrasado
                             </td>
                             <td>1°</td>
                             <td>Evelyn</td>
                             <td>Gerardo O.</td>
-                            <td> </td>
+                            <td> - </td>
                             <td>Sensor magnético removido de estación y falla actualización software.</td>
                             <td>La versión de software no era la actual. Tenía una del 12/08/2022</td>
                             <td>30 min</td>
                         </tr>
                         <tr>
                             <td>6097</td>
-                            <td>19/01/24</td>
+                            <td>05/07/23</td>
                             <td>Urgente</td>
                             <td>Cerrada</td>
                             <td>
-                                Área
-                                Linea
-                                Estación
+                                Á: Consolas
+                                <br>L: EZUL
+                                <br>E: #200
                             </td>
                             <td>1°</td>
                             <td>Aracely</td>
                             <td>Cristopher Mtz</td>
-                            <td>Las etiquetas salen en blanco</td>
+                            <td>No deja de sacar etiquetas en blanco impresora.</td>
                             <td>-Se retira etiqueta pegada en rodillo
-                                -Se calibra impresora (etiqueta sale incompleta).
+                                <br>-Se calibra impresora (etiqueta sale incompleta).
                             </td>
                             <td>Se envía etiqueta de prueba para tomar config</td>
                             <td>36 min</td>
@@ -239,19 +242,17 @@
                             <td>Cerrada</td>
                             <td>
                                 Ensamble
-                                G01 ctr
+                                <br>G01 ctr
+                                <br>10 engrasado
                             </td>
                             <td>1°</td>
                             <td>Evelyn</td>
                             <td>Gerardo O.</td>
-                            <td> </td>
+                            <td> - </td>
                             <td>Sensor magnético removido de estación y falla actualización software.</td>
                             <td>La versión de software no era la actual. Tenía una del 12/08/2022</td>
                             <td>30 min</td>
                         </tr>
-
-
-
                         </tbody>
                     </table>
                 </div>
