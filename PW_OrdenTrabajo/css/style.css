@@ -1,29 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;400;500;600&display=swap');
-
+/*Colores principales*/
 :root {
     --main-color: #005195;
-    --text-gold: #B4AA9B;
+    --color_gold: #B4AA9B;
+    --gold_70: #CAC2B6;
+
     --color-sky: #82AFD7;
+    --blue_70: #A4C6E2;
+    --blue_45: #C4DAEC;
+    --blue_20: #E5EEF7;
 
 }
-
+/*Formato general*/
 * {
     margin: 0;
     padding: 0;
     text-decoration: none;
     list-style-type: none;
     box-sizing: border-box;
-    font-family: 'Merriweather', sans-serif;
+    font-family: 'Assistant', sans-serif;
 }
-
+/*Limpiar formato*/
 a:link, a:visited, a:active {
     text-decoration:none;
 }
-
+/*Formato checkbox*/
 #menu-toggle {
     display: none;
 }
-
+/*Menu lateral*/
 .sidebar {
     position: fixed;
     height: 100%;
@@ -32,22 +36,23 @@ a:link, a:visited, a:active {
     bottom: 0;
     top: 0;
     z-index: 100;
-    background: var(--main-color);
+    background: var(--blue_20);
+    box-shadow: 0 0 3px rgb(0 0 0 / 10%);
     transition: left 300ms;
 }
 
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+/*Logo*/
 .side-header {
-    box-shadow: 0px 5px 5px -5px rgb(0 0 0 /10%);
     background: var(--main-color);
-    height: 60px;
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.side-header h3, side-head span {
-    color: #fff;
-    font-weight: 400;
+    padding-top: 0.2rem;
+    height: 60px;
 }
 
 .side-content {
@@ -79,32 +84,32 @@ a:link, a:visited, a:active {
 
 .profile {
     text-align: center;
-    padding: 2rem 0rem;
+    padding: 1.5rem 0;
 }
 
+.logoGrammer2-img{
+    height: 70px;
+    width: 115px;
+    display: inline-block;
+    margin: .1rem  .1rem ;
+}
 .bg-img {
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 50%;
-    background-size: cover;
+}
+
+.logoGrammer{
+    text-align: center;
+    padding-bottom: 1rem;
+    padding-top: 0.5rem;
 }
 
 .logoGrammer-img {
-    height: 80px;
-    width: 80px;
+    height: 40px;
+    width: 40px;
     display: inline-block;
-    margin: 0 auto .5rem auto;
-    border: 3px solid #899DC1;
-}
-
-.logoGrammer h4 {
-    color: #fff;
-    font-weight: 500;
-}
-
-.logoGrammer small {
-    color: #899DC1;
-    font-weight: 600;
+    margin: .5rem  .5rem ;
 }
 
 .sidebar {
@@ -121,15 +126,15 @@ ul {
 
 .side-menu a {
     display: block;
-    padding: 1.2rem 0rem;
+    padding: 1.1rem 0;
 }
 
 .side-menu a.active {
-    background: #2B384E;
+    background: var(--main-color);
 }
 
 .side-menu a.active span, .side-menu a.active small {
-    color: #fff;
+    color: var(--color_gold);
 }
 
 .side-menu a span {
@@ -139,13 +144,12 @@ ul {
 }
 
 .side-menu a span, .side-menu a small {
-    color: #899DC1;
+    color: var(--blue_70);
 }
-
+/*Menu lateral reducido*/
 #menu-toggle:checked ~ .sidebar {
     width: 60px;
 }
-
 #menu-toggle:checked ~ .sidebar .side-header span {
     display: none;
 }
@@ -159,7 +163,12 @@ ul {
     left: 60px;
 }
 
+#menu-toggle:checked ~ .sidebar .side-header{
+    background-color: var(--blue_20);
+}
+
 #menu-toggle:checked ~ .sidebar .logoGrammer,
+#menu-toggle:checked ~ .sidebar .profile,
 #menu-toggle:checked ~ .sidebar .side-menu a small {
     display: none;
 }
@@ -167,7 +176,6 @@ ul {
 #menu-toggle:checked ~ .sidebar .side-menu a span {
     font-size: 1.3rem;
 }
-
 
 .main-content {
     margin-left: 165px;
@@ -182,8 +190,8 @@ header {
     left: 165px;
     z-index: 100;
     height: 60px;
-    box-shadow: 0px 5px 5px -5px rgb(0 0 0 /10%);
-    background: #fff;
+    box-shadow: 0 5px 5px -5px rgb(0 0 0 /10%);
+    background: var(--blue_20);
     transition: left 300ms;
 }
 
@@ -194,7 +202,7 @@ header {
 
 .header-content {
     justify-content: space-between;
-    padding: 0rem 1rem;
+    padding: 0 1rem;
 }
 
 .header-content label:first-child span {
@@ -282,7 +290,7 @@ main {
 }
 
 .card {
-    box-shadow: 0px 5px 5px -5px rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 5px -5px rgb(0 0 0 / 10%);
     background: #fff;
     padding: 1rem;
     border-radius: 3px;
@@ -302,7 +310,7 @@ main {
 
 .card-head span {
     font-size: 3.2rem;
-    color: var(--text-gold);
+    color: var(--color_gold);
 }
 
 .card-progress small {
@@ -312,7 +320,7 @@ main {
 }
 
 .card-indicator {
-    margin: .7rem 0rem;
+    margin: .7rem 0;
     height: 10px;
     border-radius: 4px;
     background: #e9edf2;
@@ -325,23 +333,23 @@ main {
 }
 
 .indicator.one {
-    background: #22baa0;
+    background: #0AA0E1;
 }
 
 .indicator.two {
-    background: #11a8c3;
+    background: #69A032;
 }
 
 .indicator.three {
-    background: #f6d433;
+    background: #322873;
 }
 
 .indicator.four {
-    background: #f25656;
+    background: #E10014;
 }
 
 .records {
-    box-shadow: 0px 5px 5px -5px rgb(0 0 0 / 10%);
+    box-shadow: 0 5px 5px -5px rgb(0 0 0 / 10%);
     background: #fff;
     border-radius: 3px;
 }
@@ -375,7 +383,7 @@ input, button, select {
     border-radius: 3px;
     display: inline-block;
     width: 75px;
-    padding: 0rem .5rem;
+    padding: 0 .5rem;
     margin-right: .8rem;
     color: #666;
 }
@@ -385,7 +393,7 @@ input, button, select {
     color: #fff;
     height: 37px;
     border-radius: 4px;
-    padding: 0rem 1rem;
+    padding: 0 1rem;
     border: none;
     font-weight: 600;
 }
@@ -412,10 +420,10 @@ table thead tr {
 }
 
 table thead th {
-    padding: 1rem 0rem;
-    text-align: left;
+    padding: 1rem 0.3rem;
+    text-align: center;
     color: #444;
-    font-size: .8rem;
+    font-size: .9rem;
 }
 
 table thead th:first-child {
@@ -423,12 +431,13 @@ table thead th:first-child {
 }
 
 table tbody td {
-    padding: 1rem 0rem;
+    padding: 1rem 0.3rem;
     color: #444;
 }
 
 td{
-    font-size: .6rem;
+    font-size: .7rem;
+    text-align: center;
 }
 
 table tbody td:first-child {
@@ -528,7 +537,7 @@ table tbody tr {
     }
 
     #menu-toggle:checked ~ .main-content header {
-        left: 0px;
+        left: 0;
     }
 
     table {
