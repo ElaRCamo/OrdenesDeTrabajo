@@ -16,22 +16,16 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-<header class="header_section">
     <?php
-    require_once('header.php')
+        # Header section
+            require_once('header.php');
+            require_once('navbar.php');
+
+        # Content section
+            require_once('content.php');
+        # Content section
+            require_once('footer.php')
     ?>
-</header>
-
-<?php require_once('navbar.php') ?>
-<?php  require_once('content.php') ?>
-
-<footer class="footer_section">
-    <?php
-    require_once('footer.php')
-    ?>
-</footer>
-
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>

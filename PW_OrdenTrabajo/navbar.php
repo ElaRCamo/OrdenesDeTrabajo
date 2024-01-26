@@ -24,8 +24,6 @@
 
                 <div class="user">
                     <div class="client-img bg-img" style="background-image: url(imgs/user.jpg)"></div>
-                    <span class="las la-power-off"></span>
-                    <span>Cerrar sesión</span>
                 </div>
             </div>
         </div>
