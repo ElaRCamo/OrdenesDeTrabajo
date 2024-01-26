@@ -23,7 +23,7 @@
                 </div>
 
                 <div class="user">
-                    <div class="client-img bg-img" style="background-image: url(imgs/user.jpg)"></div>
+                    <div><img class="client-img bg-img" alt="User" src="\OrdenesDeTrabajo\PW_OrdenTrabajo\imgs\user.jpg"></div>
                 </div>
             </div>
         </div>
