@@ -19,8 +19,9 @@
                         <td colspan="3"><h4>Orden de Trabajo</h4> <br> <small>MANTENIMIENTO</small></td>
                         <td>
                             <div class="form-group">
-                                <label for="folio">FOLIO: </label>
-                                <input type="number" class="form-control" id="idArea" name="area" placeholder="6097" readonly>
+                                <label for="folio">FOLIO:<br>
+                                    <input type="number" class="form-control" id="idArea" name="area" placeholder="6097" readonly>
+                                </label>
                             </div>
                         </td>
                     </tr>
@@ -28,14 +29,17 @@
                     <tr>
                         <td rowspan="2">
                             <div class="form-group">
-                                <label for="area">ÁREA/DEPTO: </label>
-                                <input type="text" class="form-control" id="idArea" name="area" required>
+                                <label for="area">ÁREA/DEPTO:
+                                    <input type="text" class="form-control" id="idArea" name="area" required>
+                                </label>
                             </div>
                         </td>
                         <td rowspan="2">
                             <div class="form-group">
-                                <label for="linea">LÍNEA:</label>
-                                <input type="text" class="form-control" id="idLinea" name="linea" required>
+                                <label for="linea">LÍNEA:<br>
+                                    <input type="text" class="form-control" id="idLinea" name="linea" required>
+                                </label>
+
                             </div>
                         </td>
                         <td rowspan="2">
@@ -170,24 +174,24 @@
                         </td>
                         <td colspan="2">
                             <div class="form-group">
-                                <label for="calificacion">CALIFICACIÓN DE TRABAJO RECIBIDO: </label><br>
-                                <input type="radio" name="calificacion" value="excelente" required>Excelente<br>
-                                <input type="radio" name="calificacion" value="aceptable" required>Aceptable<br>
-                                <input type="radio" name="calificacion" value="noConforme" required>No conforme<br>
+                                <label for="calificacion">CALIFICACIÓN DE TRABAJO RECIBIDO:<br>
+                                    <input type="radio" name="calificacion" value="excelente" required>Excelente
+                                    <input type="radio" name="calificacion" value="aceptable" required>Aceptable
+                                    <input type="radio" name="calificacion" value="noConforme" required>No conforme
+                                </label>
+
                             </div>
                         </td>
                         <td>
                             <div class="form-group">
-                                <label for="tiempoMuerto">TOTAL DE TIEMPO MUERTO: </label>
-                                <input type="time" class="form-control" id="idTiempoMuerto" name="tiempoMuerto" readonly>
+                                <label for="tiempoMuerto">TOTAL DE TIEMPO MUERTO:<br>
+                                    <input type="time" class="form-control" id="idTiempoMuerto" name="tiempoMuerto" readonly>
+                                </label>
                             </div>
                         </td>
                     </tr>
                 </table>
-
-
-                <br>
-                <button type="submit" class="btn btn-primary">Generar Orden</button>
+                <br><button type="submit" class="btn btn-primary">Generar Orden</button>
             </form>
         </div>
     </div>
