@@ -7,42 +7,42 @@
 
     <div class="side-content">
         <div class="profile">
-            <span><img class="logoGrammer2-img img-responsive" alt="LogoGrammer" src="imgs/logoGrammer.png"></span>
+            <span><img class="logoGrammer2-img img-responsive" alt="LogoGrammer" src="imgs\logoGrammer.png"></span>
         </div>
         <div class="side-menu">
             <ul>
                 <li>
-                    <a href="" class="active">
+                    <a href="\OrdenesDeTrabajo\PW_OrdenTrabajo\index.php" class="active">
                         <span class="las la-home"></span>
                         <small>Inicio</small>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="\OrdenesDeTrabajo\PW_OrdenTrabajo\header.php">
                         <span class="lar la-edit"></span>
                         <small>Nueva orden</small>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="\PW_OrdenTrabajo\buscar\buscar.php">
                         <span class="las la-search"></span>
                         <small>Buscar</small>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="\OrdenesDeTrabajo\PW_OrdenTrabajo\reportes\reportes.php">
                         <span class="las la-book"></span>
                         <small>Generar reporte</small>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="\OrdenesDeTrabajo\PW_OrdenTrabajo\configuraciones\configuraciones.php">
                         <span class="las la-cog"></span>
                         <small>Configuraciones</small>
                     </a>
                 </li>
                 <li>
-                    <a href="">
+                    <a href="\OrdenesDeTrabajo\PW_OrdenTrabajo\sesion\sesion.php">
                         <span class="las la-power-off"></span>
                         <small>Cerrar sesión</small>
                     </a>
