@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Buscar Orden</title>
+    <title>Nueva Orden</title>
 
     <!--Enlace de iconos: icons8, licencia con mención -->
     <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
@@ -22,7 +22,7 @@
             require_once('../../navbar.php');
 
         # Content section
-            require_once('contentBuscar.php');
+            require_once('contentNuevaOrden.php');
         # Content section
     require_once('../../footer.php')
     ?>
