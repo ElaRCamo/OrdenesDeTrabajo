@@ -1,7 +1,6 @@
     <main>
         <div class="page-header">
-            <h1>Órdenes de Trabajo</h1>
-            <small>Inicio </small>
+            <h1>Inicio</h1>
         </div>
 
         <div class="page-content">
