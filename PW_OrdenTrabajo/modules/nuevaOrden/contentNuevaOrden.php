@@ -7,7 +7,7 @@
         <div class="container">
 
             <form name="formNuevaOrden" action="" method="POST">
-                <table class="default">
+                <table class="table table-bordered">
                     <!--Fila uno-->
                     <tr>
                         <td>
