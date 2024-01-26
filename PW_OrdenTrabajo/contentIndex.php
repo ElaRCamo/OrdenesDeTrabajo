@@ -89,15 +89,15 @@
                             <th>#ORDEN</th>
                             <th>FECHA</th>
                             <th>PRIORIDAD</th>
-                            <th> ESTATUS </th>
-                            <th> UBICACIÓN </th>
-                            <th> TURNO </th>
-                            <th> SOLICITANTE </th>
-                            <th> ATENDIÓ </th>
-                            <th> PROBLEMA/TRABAJO </th>
-                            <th> DIAGNÓSTICO </th>
-                            <th> CAUSA RAÍZ </th>
-                            <th> TIEMPO MUERTO </th>
+                            <th>ESTATUS </th>
+                            <th>UBICACIÓN </th>
+                            <th>TURNO </th>
+                            <th>SOLICITANTE </th>
+                            <th>ATENDIÓ </th>
+                            <th>PROBLEMA/TRABAJO </th>
+                            <th>DIAGNÓSTICO </th>
+                            <th>CAUSA RAÍZ </th>
+                            <th>TIEMPO MUERTO </th>
                         </tr>
                         </thead>
                         <tbody>
