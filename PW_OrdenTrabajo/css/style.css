@@ -37,12 +37,13 @@ a:link, a:visited, a:active {
     top: 0;
     z-index: 100;
     background: var(--blue_20);
+    box-shadow: 0 0 3px rgb(0 0 0 / 10%);
     transition: left 300ms;
 }
 
 ul {
     list-style: none;
-    padding-left: 0.5rem;
+    padding-left: 0rem;
 }
 /*Logo*/
 .side-header {
@@ -92,6 +93,12 @@ ul {
     padding: 1.5rem 0rem;
 }
 
+.logoGrammer2-img{
+    height: 70px;
+    width: 115px;
+    display: inline-block;
+    margin: .1rem  .1rem ;
+}
 .bg-img {
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,13 +118,6 @@ ul {
     margin: .5rem  .5rem ;
 }
 
-.logoGrammer2-img{
-    height: 70px;
-    width: 110px;
-    display: inline-block;
-    margin: .1rem  .1rem ;
-}
-
 .sidebar {
     /*overflow-y: auto;*/
 }
@@ -132,11 +132,11 @@ ul {
 
 .side-menu a {
     display: block;
-    padding: 1.2rem 0rem;
+    padding: 1.1rem 0rem;
 }
 
 .side-menu a.active {
-    background: #605296;
+    background: var(--main-color);
 }
 
 .side-menu a.active span, .side-menu a.active small {
@@ -165,11 +165,21 @@ ul {
     width: calc(100% - 60px);
 }
 
+#menu-toggle:checked ~ .header {
+    margin-left: 60px;
+    width: calc(100% - 60px);
+}
+
 #menu-toggle:checked ~ .main-content header {
     left: 60px;
 }
 
+#menu-toggle:checked ~ .sidebar .side-header{
+    background-color: var(--blue_20);
+}
+
 #menu-toggle:checked ~ .sidebar .logoGrammer,
+#menu-toggle:checked ~ .sidebar .profile,
 #menu-toggle:checked ~ .sidebar .side-menu a small {
     display: none;
 }

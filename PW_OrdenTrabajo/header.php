@@ -7,7 +7,7 @@
 
     <div class="side-content">
         <div class="profile">
-            <img class="logoGrammer2-img img-responsive" alt="LogoGrammer" src="imgs/logoGrammer.png">
+            <span><img class="logoGrammer2-img img-responsive" alt="LogoGrammer" src="imgs/logoGrammer.png"></span>
         </div>
         <div class="side-menu">
             <ul>
