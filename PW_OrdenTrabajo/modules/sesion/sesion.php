@@ -20,9 +20,8 @@
         # Header section
             require_once('../../header.php');
             require_once('../../navbar.php');
-
         # Content section
-            require_once('contentNuevaOrden.php');
+            require_once('contentSesion.php');
         # Content section
     require_once('../../footer.php')
     ?>

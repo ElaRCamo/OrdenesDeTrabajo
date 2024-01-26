@@ -1,2 +1,10 @@
+<main>
+    <div class="page-header">
+        <h1>Órdenes de Trabajo</h1>
+        <small>Buscar </small>
+    </div>
 
-<h4>Buscar</h4>
+    <div class="page-content">
+
+    </div>
+</main>

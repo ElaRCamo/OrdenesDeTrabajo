@@ -1,1 +1,9 @@
-<h4>Persil y sesión</h4>
+<main>
+    <div class="page-header">
+        <h1>Órdenes de Trabajo</h1>
+        <small>Perfil y sesión </small>
+    </div>
+
+    <div class="page-content">
+    </div>
+</main>
