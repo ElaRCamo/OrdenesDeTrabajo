@@ -128,7 +128,14 @@ ul {
     display: block;
     padding: 1.1rem 0;
 }
-
+/*Hover para opciones del menu*/
+.side-menu a:hover {
+    background-color: var(--blue_45);;
+}
+.side-menu a{
+    color: #E5EEF7;
+}
+/*Opcion del menu activada*/
 .side-menu a.active {
     background: var(--main-color);
 }
@@ -136,13 +143,13 @@ ul {
 .side-menu a.active span, .side-menu a.active small {
     color: var(--color_gold);
 }
-
+/*Fondo de los iconos del menu*/
 .side-menu a span {
     display: block;
     text-align: center;
     font-size: 1.7rem;
 }
-
+/*Texto del menu*/
 .side-menu a span, .side-menu a small {
     color: var(--blue_70);
 }
@@ -162,7 +169,7 @@ ul {
 #menu-toggle:checked ~ .main-content header {
     left: 60px;
 }
-
+/*Fondo del logo simple*/
 #menu-toggle:checked ~ .sidebar .side-header{
     background-color: var(--blue_20);
 }
@@ -543,4 +550,49 @@ table tbody tr {
     table {
         width: 900px;
     }
+
+    .form-group span{
+        display: none;
+    }
+}
+
+/*Contenido Nueva orden*/
+
+/*Boton guardar*/
+.container-fluid button{
+    background: var(--main-color);
+    justify-content: flex-end;
+    box-shadow: 0 5px 5px -5px rgb(0 0 0 / 50%);
+}
+
+.div-button{
+    display:flex;
+    justify-content:space-between;
+}
+
+.form-group  span {
+    display:none;
+}
+/*tabla-formulario*/
+table{
+    table-layout: fixed;
+    width:100%;
+}
+
+.tableOpe td {
+    width: 20%;
+    word-wrap: break-word;
+}
+.tableTec td {
+    width: 15%;
+    word-wrap: break-word;
+}
+.logoRight{
+    position: relative;
+}
+.logoR{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
 }

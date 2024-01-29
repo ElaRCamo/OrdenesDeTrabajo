@@ -12,7 +12,7 @@
         <div class="side-menu">
             <ul>
                 <li>
-                    <a href="https://arketipo.mx//Produccion/OrdenesDeTrabajo/PW_OrdenTrabajo/index.php" class="active">
+                    <a href="\OrdenesDeTrabajo\PW_OrdenTrabajo\index.php" class="active">
                         <span class="las la-home"></span>
                         <small>Inicio</small>
                     </a>
