@@ -6,7 +6,6 @@
             <label for="menu-toggle">
                 <span class="las la-bars"></span>
             </label>
-
             <div class="header-menu">
                 <label for="">
                     <span class="las la-search"></span>
@@ -16,11 +15,9 @@
                     <span class="las la-bell"></span>
                     <span class="notify">3</span>
                 </div>
-
                 <div class="user">
                     <div><img class="user-img bg-img" alt="User" src="\OrdenesDeTrabajo\PW_OrdenTrabajo\imgs\user.jpg"></div>
                 </div>
-
                 <div class="bg-img">
                     <span class="las la-power-off"></span>
                 </div>

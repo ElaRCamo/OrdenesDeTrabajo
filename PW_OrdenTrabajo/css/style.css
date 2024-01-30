@@ -130,17 +130,21 @@ ul {
 }
 /*Hover para opciones del menu*/
 .side-menu a:hover {
-    background-color: var(--blue_45);;
+    background-color: red;
 }
-.side-menu a{
+.optionMenu {
     color: #E5EEF7;
 }
 /*Opcion del menu activada*/
-.side-menu a.active {
+#menuLateral a.active,
+.side-menu a:hover {
     background: var(--main-color);
 }
 
-.side-menu a.active span, .side-menu a.active small {
+.side-menu a.active span,
+.side-menu a.active small,
+li a:hover span,
+li a:hover small {
     color: var(--color_gold);
 }
 /*Fondo de los iconos del menu*/
@@ -153,9 +157,7 @@ ul {
 .side-menu a span, .side-menu a small {
     color: var(--blue_70);
 }
-.side-menu span:hover, .side-menu small:hover {
-    color: var(--main-color);
-}
+
 /*Menu lateral reducido*/
 #menu-toggle:checked ~ .sidebar {
     width: 60px;
