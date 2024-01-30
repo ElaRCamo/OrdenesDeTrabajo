@@ -1,8 +1,8 @@
 <main>
     <div class="page-header row headerLogo">
-        <div class="col ">
-            <h5> Nueva Orden </h5>
-            <h6>Favor de registrar los datos para la nueva Orden de Trabajo</h6>
+        <div class="col divTitle">
+            <h1> Nueva Orden </h1>
+            <small>Favor de registrar los datos para la nueva Orden de Trabajo</small>
         </div>
         <div class="logoRight col-sm-3">
             <div>
@@ -14,7 +14,7 @@
         </div>
     </div>
 
-    <div class="page-content table-responsive-sm">
+    <div class="page-content table-responsive-sm nuevaOrdenTabla">
         <div class="container-fluid table-responsive">
             <form name="formNuevaOrdenOperador" action="" method="POST">
                 <table class="table table-borderless tableOpe table-responsive">
