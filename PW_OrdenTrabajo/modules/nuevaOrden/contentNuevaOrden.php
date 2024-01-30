@@ -1,19 +1,23 @@
 <main>
-    <div class="page-header row">
-        <div class="col">
+    <div class="page-header row headerLogo">
+        <div class="col ">
             <h5> Nueva Orden </h5>
             <h6>Favor de registrar los datos para la nueva Orden de Trabajo</h6>
         </div>
-        <div class="logoRight col-sm-4">
-            <img class="logoGrammer2-img logoR img-responsive" alt="LogoGrammer" src="\OrdenesDeTrabajo\PW_OrdenTrabajo\imgs\logoGrammer.png">
-            <span><small><br>GRAMMER AUTOMOVIVE PUEBLA S. A. DE C. V.</small></span>
+        <div class="logoRight col-sm-3">
+            <div>
+                <img class="logoGrammer2-img logoR img-responsive" alt="LogoGrammer" src="\OrdenesDeTrabajo\PW_OrdenTrabajo\imgs\logoGrammer.png"><br>
+            </div>
+            <div>
+                <span><small>GRAMMER AUTOMOTIVE PUEBLA S. A. DE C. V.</small></span>
+            </div>
         </div>
     </div>
 
     <div class="page-content table-responsive-sm">
         <div class="container-fluid table-responsive">
             <form name="formNuevaOrdenOperador" action="" method="POST">
-                <table class="table table-borderless tableOpe">
+                <table class="table table-borderless tableOpe table-responsive">
                     <!--Fila uno-->
                     <thead>
                         <tr class="table-borderless">
@@ -114,8 +118,7 @@
                 <table class="table table-borderless tableTec">
                     <!--Fila uno-->
                     <tr>
-
-                        <td colspan="">
+                        <td >
                             <div class="form-group">
                                 <label for="ejecutadoPor">EJECUTADO POR EL TÉCNICO:
                                     <input type="text" class="form-control" id="idEjecutadoPor" name="ejecutadoPor" placeholder="Cristopher Mtz." readonly>
@@ -129,14 +132,6 @@
                                 </label>
                             </div>
                         </td>
-                        <td colspan="3" >
-                            <div class="form-group">
-                                <label for="diagnostico">DIAGNÓSTICO/TRABAJO REALIZADO:
-                                    <input type="text" class="form-control" id="idDiagnostico" name="diagnostico" required>
-                                </label>
-                            </div>
-                        </td>
-
                         <td>
                             <div class="form-group">
                                 <label for="afectados">OPERADORES AFECTADOS:
@@ -147,18 +142,30 @@
                     </tr>
                     <!--Fila dos-->
                     <tr>
-                        <td colspan="3">
+                        <td colspan="2" >
+                            <div class="form-group">
+                                <label for="diagnostico">DIAGNÓSTICO/TRABAJO REALIZADO:
+                                    <input type="text" class="form-control" id="idDiagnostico" name="diagnostico" required>
+                                </label>
+                            </div>
+                        </td>
+                        <td rowspan="2">
+                            <div class="form-group">
+                                <label for="obsTecnico">OBSERVACIONES:
+                                    <input type="text" class="form-control" id="idObsTecnico" name="obsTecnico" required>
+                                </label>
+                            </div>
+                        </td>
+                    </tr>
+                    <!--Fila tres-->
+                    <tr>
+                        <td colspan="2">
                             <div class="form-group">
                                 <label for="causa">CAUSA RAÍZ:
                                     <input type="text" class="form-control" id="idCausa" name="causa" required>
                                 </label>
                             </div>
                         </td>
-
-                    </tr>
-                    <!--Fila tres-->
-                    <tr>
-
                     </tr>
                 </table>
                 <div class="div-button">
@@ -166,12 +173,15 @@
                         <input type="checkbox" class="form-check-input" id="confirmarInfo">
                         <label class="form-check-label" for="confirmarInfo">Confirmo que la información es correcta</label>
                     </div>
-                    <br><button type="submit" class="btn btn-primary">Cerrar Orden</button>
+                    <br><button type="submit" class="btn btn-primary">Registrar Orden</button>
                 </div>
             </form>
 
-            <form>
-                <table>
+            <form name="formNuevaOrdenCierre" action="" method="POST">
+                <div class="col">
+                    <h6>Favor de registrar el cierre de la orden de trabajo.</h6>
+                </div>
+                <table class="table table-borderless tableTec">
                     <tr>
                         <td colspan="2">
                             <div class="form-group">
@@ -187,6 +197,10 @@
                                     <input type="radio" name="calificacion" value="aceptable" required>Aceptable
                                     <input type="radio" name="calificacion" value="noConforme" required>No conforme
                                 </label>
+                            </div>
+                        </td>
+                        <td>
+                            <div class="form-group">
                                 <label for="observadciones">OBSERVACIONES:<br>
                                     <input type="text" class="form-control" id="idObservaciones" name="observadciones" required>
                                 </label>
@@ -194,6 +208,9 @@
                         </td>
                     </tr>
                 </table>
+                <div class="div-button">
+                    <br><button type="submit" class="btn btn-primary">Cerrar Orden</button>
+                </div>
             </form>
         </div>
     </div>

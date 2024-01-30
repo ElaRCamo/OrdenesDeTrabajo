@@ -500,7 +500,17 @@ table tbody tr {
     .analytics {
         grid-template-columns: repeat(2, 1fr);
     }
+    .logoRight span{
+        font-size: .6rem;
+    }
 }
+/*Tabla responsive*/
+@media only screen and (max-width: 900px) {
+    th:nth-child(2), td:nth-child(2) {
+        display: none;
+    }
+}
+
 
 @media only screen and (max-width: 768px) {
     .analytics {
@@ -551,8 +561,12 @@ table tbody tr {
         width: 900px;
     }
 
-    .form-group span{
+    .form-group span, .logoRight span{
         display: none;
+    }
+    .headerLogo{
+        display: flex;
+        flex-wrap: wrap-reverse;
     }
 }
 
@@ -587,12 +601,13 @@ table{
     width: 15%;
     word-wrap: break-word;
 }
-.logoRight{
-    position: relative;
+.logoRight {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
-.logoR{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin: -25px 0 0 -25px;
+.logoR {
+    align-self: center;
 }
+
